@@ -39,9 +39,6 @@ exports[`snapshot tests Carousel component matches snapshot 1`] = `
     <div
       class="Carousel-main"
     >
-      <i
-        class="bi bi-arrow-left-circle"
-      />
       <div
         class="Card"
       >
@@ -65,9 +62,6 @@ exports[`snapshot tests Carousel component matches snapshot 1`] = `
           .
         </small>
       </div>
-      <i
-        class="bi bi-arrow-right-circle"
-      />
     </div>
   </div>
 </div>
