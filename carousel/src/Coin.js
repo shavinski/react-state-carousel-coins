@@ -1,9 +1,12 @@
+import React from "react";
+import "./Coin.css";
 
-// src img for heads
-// src img for tails 
+function Coin({ side, imgSrc }) {
+  return (
+    <div className="Coin">
+      <img src={imgSrc} alt={side} />
+    </div>
+  );
+}
 
-// if heads 
-    // display head image
-
-// if tails 
-    // display tails image 
+export default Coin;

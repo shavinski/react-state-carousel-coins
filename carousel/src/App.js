@@ -1,12 +1,13 @@
 import "./App.css";
 import Carousel from "./Carousel";
 import photos from "./photos.js";
+import CoinFlipper from "./CoinFlipper";
 
 /** App component, renders Carousel
- * 
+ *
  * Props: none
  * State: none
- * 
+ *
  * App --> Carousel
  */
 
@@ -20,7 +21,8 @@ function App() {
   return (
     <div className="App">
       <Carousel photos={carouselPhotos} title={carouselTitle} />
-      {/* <CoinFlipper /> */}
+      <br />
+      <CoinFlipper />
     </div>
   );
 }
